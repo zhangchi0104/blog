@@ -46,7 +46,7 @@ jobs:
               run: hugo --minify --gc
 
             - name: Deploy 🚀
-              uses: JamesIves/github-pages-deploy-action@4
+              uses: JamesIves/github-pages-deploy-action@v4.4.1
               with:
                   branch: gh-pages
                   folder: public
